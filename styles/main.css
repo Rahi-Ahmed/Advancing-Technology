@@ -1,0 +1,174 @@
+/* mobile device*/
+@media screen and (max-width: 480px) {
+    body {
+        background-color: rgba(65, 117, 138, 255);
+        display: flex;
+        flex-direction: column;
+    }
+
+    p {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}
+
+/* tablet device*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: rgba(65, 117, 138, 255);
+    }
+
+    p {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}
+
+/* desktop device*/
+@media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(white, rgba(65, 117, 138, 255));
+        padding: 0 10% 0;
+    }
+
+    p {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+}
+
+header {
+    color: #42748A;
+    text-align: center;
+}
+
+header > h1 {
+    font-weight: 1000;
+    text-shadow: 3pt 3pt 5pt #26424e;
+    font: 25pt Cambria Serif;
+    margin: 0px;
+}
+
+header > h3 {
+    font: 10pt Arial;
+    font-weight: 600;
+    margin: 5px 0px 15px;
+}
+
+/*[class^="icon"] {*/
+
+/*    width: 3%;*/
+/*    height: 3%;*/
+/*    position: relative;*/
+/*    margin-right: 10px;*/
+
+/*}*/
+
+nav {
+    background-color: #203B44;
+    text-align: center;
+}
+
+nav > ul {
+    padding: 5pt;
+    margin: 0px;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    display: inline;
+    padding: 5pt;
+
+}
+
+
+nav > ul > li > a {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+nav > ul > li > a:hover {
+    color: #42748A;
+    cursor: pointer;
+
+}
+
+
+/* tablet and desktop device*/
+@media screen and (min-width: 481px) {
+    nav > li {
+        float: left;
+    }
+}
+
+
+main {
+    color: rgba(4, 55, 79, 255);
+    font: 10pt Arial;
+    background-color: rgba(220, 233, 239, 255);
+    display: flex;
+    flex-direction: column;
+    size: auto;
+
+}
+
+
+/* mobile device*/
+@media screen and (max-width: 480px) {
+    table {
+
+        display: none;
+        visibility: hidden;
+    }
+}
+
+/* tablet and desktop device*/
+@media screen and (min-width: 481px) {
+    article {
+
+        display: none;
+        visibility: hidden;
+    }
+}
+
+section {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+/* mobile device*/
+@media screen and (max-width: 480px) {
+    fieldset {
+        display: flex;
+
+    }
+}
+
+/* tablet and desktop device*/
+@media screen and (min-width: 481px) {
+    fieldset {
+        display: inline;
+
+    }
+}
+
+label {
+    display: block;
+}
